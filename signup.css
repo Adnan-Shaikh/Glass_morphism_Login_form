@@ -1,5 +1,5 @@
 body {
-    background-image: url(pexels-free-nature-stock-111123.jpg);
+    background: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

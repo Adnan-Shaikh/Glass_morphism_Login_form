@@ -1,0 +1,99 @@
+body {
+  background-image: url(pexels-free-nature-stock-111123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0));
+  backdrop-filter: blur(30px);
+  width: 350px;
+  height: 400px; /* Increased height */
+  padding: 20px;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow:  3px 3px 10px #4031316c,
+             -3px -3px 10px #ffffff7e;
+}
+
+.userdiv,
+.passdiv {
+  margin-bottom: 30px; /* Increased margin for better spacing */
+}
+
+#username,
+#pass {
+  width: calc(100% - 40px);
+  height: 35px; /* Increased height */
+  border-radius: 25px;
+  border: 3px solid aliceblue;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.rem-forgot-div {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; /* Increased margin for better spacing */
+}
+
+.remdiv {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.remdiv input {
+  margin-right: 10px;
+}
+
+.forgotdiv {
+  text-align: right;
+}
+
+#btn {
+  width: calc(100% - 40px);
+  height: 40px; /* Increased height */
+  border-radius: 25px;
+  border: 2px solid aliceblue;
+  background-color: aliceblue;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 15px; /* Added margin for better spacing */
+}
+
+#btn:hover {
+  background-color: black;
+  color: aliceblue;
+  transition-duration: 0.6s;
+}
+
+.signupdiv {
+  margin-top: 20px;
+}
+
+#forgot,
+#register {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.links{
+  position: sticky;
+  margin-left: 73px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
